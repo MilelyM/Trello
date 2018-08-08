@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('../img/xan-griffin-417108-unsplash.jpg');
+    background-size: cover;
+}
+nav{
+    opacity:0.4;
+    height: 4em !important;
+}
+.tablero{
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+.logotrello{
+    width: 3.5em;
+    margin-top: 0.3em;
+}
+
+nav .right{
+    right: 0%; /* colocar los iconos a la derecha*/
+}
+
+.nav-wrapper form{
+    margin: auto;
+    width: 20%; /* el tanaño del buscador*/
+}
+
+.nav-wrapper .input-field{
+    padding-top: 0.4em; /* centrar el input en el nav*/
+}
+
+.nav-wrapper form #search{
+    height: 3em; /* alto del input*/
+}
+
+
+nav .right img{ /* icono del perfil*/
+    margin: 1em;
+    height: 2.1em;
+    width: 2em;
+    border: 0.1em solid white; 
+    cursor: pointer;
+}
+
