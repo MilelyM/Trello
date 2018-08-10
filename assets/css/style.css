@@ -1,48 +1,128 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0% ;
+    padding: 0% ;
     font-family: sans-serif;
+    
 }
 body{
+
     background-image: url('../img/xan-griffin-417108-unsplash.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
 }
+.btsearch{
+    width: 13em;
+    text-align: right;
+}
+
 nav{
-    opacity:0.4;
-    height: 4em !important;
+    opacity:0.8;
+    height: 2.5em;
+    background-color:  rgb(34,34,34, 0.5);
 }
-.tablero{
-    padding: 0.5em;
-    border-radius: 0.5em;
+.row{
+    margin: 0%;
 }
 .logotrello{
-    width: 3.5em;
-    margin-top: 0.3em;
+    height: 1.3125em;
+    width: 4.875em;
+    margin-top: 0.5em;
+    opacity: 0.8;
+    
+
 }
-
-nav .right{
-    right: 0%; /* colocar los iconos a la derecha*/
-}
-
-.nav-wrapper form{
-    margin: auto;
-    width: 20%; /* el tanaño del buscador*/
-}
-
-.nav-wrapper .input-field{
-    padding-top: 0.4em; /* centrar el input en el nav*/
-}
-
-.nav-wrapper form #search{
-    height: 3em; /* alto del input*/
-}
-
-
-nav .right img{ /* icono del perfil*/
-    margin: 1em;
-    height: 2.1em;
-    width: 2em;
-    border: 0.1em solid white; 
+#logotrello:hover{
+    text-align: center;
     cursor: pointer;
+    opacity: 100;
+
+}
+.logotrelloC{
+    text-align: center;
+    cursor: pointer;
+
+}
+.botons:hover{
+    background-color:rgb(214,218,220,0.5);
+}
+
+.prueba{
+    background-color: aqua;
+}
+ @media (max-width: 925px) {
+     .ocultar{
+         display: none;
+
+     }
+     .logotrelloC{
+        text-align: center;
+        width: 1em;
+        cursor: pointer;
+    
+    }
+     .iconsearch{
+        text-align: center;
+        
+    } 
+    .csearch{
+        height: 2.5em;
+        width: 2em;
+    }
+    .btsearch{
+        width: 2.5em;
+    }
+    .iconosnav{
+        text-align: right;
+        width: 5em;
+        padding: 0%;
+    }
+ }
+.iconosnav{
+    text-align: right; 
+    padding-right:  0.2em;
+
+}
+.inp1{
+    width: 60%;
+    height:  2em;
+}
+.colors{
+    color: white;
+    
+}
+.botons {
+    widows: 2em;
+    height: 2em;
+    margin-top: 0.3em;
+    border-radius: 0.1875em;
+    opacity: 40;
+    background-color:rgb(131,140,145,0.5);
+    border: transparent;
+}
+
+.imgProfil{
+    width: 2em;
+    height: 2em;
+    
+}
+.circular{
+    border-radius: 15em;
+    widows:  2em;
+    height:  2em;
+    margin-top: 0.3em;
+    opacity: 40;
+    background-color: white;
+}
+.csearch{
+padding-left:   0.5em;
+}
+@media (max-width: 375px) {
+   
+    .iconosnav{
+    display: inline-flex;
+        height: 2.5em;
+    }
 }
 
